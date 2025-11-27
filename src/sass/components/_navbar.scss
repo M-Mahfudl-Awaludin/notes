@@ -1,0 +1,24 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.navbar {
+  background: $white !important;
+  box-shadow: $shadow;
+  padding: 1rem 0;
+  border-bottom: 1px solid $gray-200;
+
+  .navbar-brand {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    color: $primary !important;
+    transition: $transition-fast;
+
+    &:hover {
+      color: darken($primary, 10%) !important;
+    }
+  }
+
+  .btn {
+    margin-left: 0.5rem;
+  }
+}

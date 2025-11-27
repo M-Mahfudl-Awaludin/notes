@@ -1,0 +1,73 @@
+// Bootstrap Custom Variables - Cloud Theme
+@use 'abstracts/variables' as *;
+
+// Import Bootstrap base
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+// =====================================================
+//   GLOBAL VARIABLE OVERRIDES
+// =====================================================
+$primary: #4285f4;
+$secondary: #34a853;
+$success: #34a853;
+$danger: #ea4335;
+$warning: #fbbc04;
+$info: #1a73e8;
+$light: #f8f9fa;
+$dark: #202124;
+
+$border-radius: 8px;
+$border-radius-sm: 6px;
+$border-radius-lg: 24px;
+
+$box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+$font-family-base: 'Inter', sans-serif;
+$font-size-base: 1rem;
+
+// =====================================================
+//   KUSTOMISASI 5+ KOMPONEN BOOTSTRAP
+// =====================================================
+
+// 1 — BUTTON
+$btn-padding-y: 0.55rem;
+$btn-padding-x: 1.25rem;
+$btn-border-radius: 50px;
+$btn-box-shadow: 0 2px 6px rgba(66, 133, 244, 0.25);
+$btn-font-weight: 600;
+
+// 2 — CARD
+$card-border-radius: 16px;
+$card-box-shadow: 0 4px 14px rgba(0, 0, 0, .08);
+$card-border-width: 0;
+
+// 3 — NAVBAR
+$navbar-light-color: #202124;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+$navbar-padding-y: 1rem;
+$navbar-brand-font-size: 1.25rem;
+
+// 4 — ALERT
+$alert-border-radius: 12px;
+$alert-padding-y: 1rem;
+$alert-bg-scale: -80%; // warna lebih soft
+$alert-border-width: 0;
+
+// 5 — BADGE
+$badge-font-size: 0.75rem;
+$badge-padding-y: 0.4em;
+$badge-padding-x: 0.6em;
+$badge-border-radius: 6px;
+
+// 6 (Opsional) — FORM CONTROL
+$form-control-border-radius: 10px;
+$form-control-padding-y: 0.7rem;
+$form-control-focus-box-shadow: 0 0 0 3px rgba(66, 133, 244, .25);
+
+// =====================================================
+//   IMPORT BOOTSTRAP DENGAN VARIABEL YANG SUDAH DI-OVERRIDE
+// =====================================================
+@import 'bootstrap/scss/bootstrap';

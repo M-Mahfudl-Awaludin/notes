@@ -1,0 +1,57 @@
+// Import Bootstrap with custom variables (Bootstrap uses @import internally)
+@use 'bootstrap-custom';
+
+// Import abstracts
+@use 'abstracts/variables' as *;
+@use 'abstracts/mixins' as *;
+
+// Import base
+@use 'base/reset';
+
+// Import components
+@use 'components/navbar';
+@use 'components/card';
+@use 'components/buttons';
+
+// Import layout
+@use 'layout/grid';
+
+// Global styles
+.app-footer {
+  background: $white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid $gray-200;
+  text-align: center;
+  color: $text-muted;
+  font-size: $font-size-sm;
+}
+
+// Additional custom styles
+main {
+  min-height: calc(100vh - 200px);
+}
+
+// Loading state
+.loading {
+  @include flex-center;
+  min-height: 400px;
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $gray-400;
+  border-radius: 5px;
+  
+  &:hover {
+    background: $gray-500;
+  }
+}

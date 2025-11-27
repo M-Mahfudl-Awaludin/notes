@@ -1,0 +1,43 @@
+// Cloud Color Palette - Modern & Attractive
+$primary: #4285f4;        // Google Blue
+$secondary: #34a853;      // Google Green
+$accent: #ea4335;         // Google Red
+$warning: #fbbc04;        // Google Yellow
+$info: #1a73e8;           // Deep Blue
+$light: #f8f9fa;          // Light Gray
+$dark: #202124;           // Dark Gray
+$white: #ffffff;
+$gray-100: #f1f3f4;
+$gray-200: #e8eaed;
+$gray-300: #dadce0;
+$gray-400: #bdc1c6;
+$gray-500: #9aa0a6;
+$gray-600: #80868b;
+$gray-700: #5f6368;
+$gray-800: #3c4043;
+$gray-900: #202124;
+
+// Text Colors
+$text-dark: #202124;
+$text-light: #ffffff;
+$text-muted: #5f6368;
+
+// Spacing & Layout
+$radius: 16px;
+$radius-sm: 8px;
+$radius-lg: 24px;
+$shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+$shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+$shadow-hover: 0 12px 32px rgba(0, 0, 0, 0.18);
+
+// Typography
+$font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-size-base: 1rem;
+$font-size-sm: 0.875rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+
+// Transitions
+$transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-fast: all 0.15s ease;
